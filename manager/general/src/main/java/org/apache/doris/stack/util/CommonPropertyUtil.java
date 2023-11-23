@@ -37,23 +37,23 @@ public class CommonPropertyUtil {
     }
 
     // When starting the program, read some environment variable values into the properties configuration
-    private static final String DB_TYPE = System.getenv(EnvironmentDefine.DB_TYPE_ENV);
+    private static final String DB_TYPE = "mysql";
 
-    private static final String DB_DBNAME = System.getenv(EnvironmentDefine.DB_DBNAME_ENV);
+    private static final String DB_DBNAME = "manager";
 
-    private static final String DB_PORT = System.getenv(EnvironmentDefine.DB_PORT_ENV);
+    private static final String DB_PORT = "3306";
 
-    private static final String DB_USER = System.getenv(EnvironmentDefine.DB_USER_ENV);
+    private static final String DB_USER = "root";
 
-    private static final String DB_PASS = System.getenv(EnvironmentDefine.DB_PASS_ENV);
+    private static final String DB_PASS = "123456";
 
-    private static final String DB_HOST = System.getenv(EnvironmentDefine.DB_HOST_ENV);
+    private static final String DB_HOST = "127.0.0.1";
 
     private static final String STUDIO_IP = System.getenv(EnvironmentDefine.STUDIO_IP_ENV);
 
-    private static final String STUDIO_PORT = System.getenv(EnvironmentDefine.STUDIO_PORT_ENV);
+    private static final String STUDIO_PORT = "8080";
 
-    private static final String ENCRYPT_KEY = System.getenv(EnvironmentDefine.ENCRYPT_KEY_ENV);
+    private static final String ENCRYPT_KEY = "12dfA67887iyW321";
 
     private static final String NGINX_PORT = System.getenv(EnvironmentDefine.NGINX_PORT_ENV);
 
